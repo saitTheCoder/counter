@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80vw;
+  height: 60vh;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#number {
+  /* text-align: center; */
+  font-size: 10rem;
+  color: purple;
+}
+h1 {
+  font-size: 4rem;
+  color: blueviolet;
+}
+button {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  outline: 1px solid purple;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0.3rem 0.7rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+button:hover {
+  background-color: purple;
+  color: white;
+}
